@@ -1,18 +1,20 @@
 //complete this code
 class Person {
-	const person = new Person("John", 25);
+	constructor(John, 25);
 	console.log(person.name);
 	console.log(person.age);
 }
 
 class Student extends Person {
-	const student = new Student("John", 25);
-	student.study();
+	study(){
+		console.log(`${this.name} is studying.`);
+	}
 }
 
 class Teacher extends Person {
-	const teacher = new Teacher("John", 30);
-	teacher.teach();
+	teach(){
+		console.log(`${this.John} is teaching.`);
+	}
 }
 
 // Do not change the code below this line
