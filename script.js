@@ -1,8 +1,9 @@
 //complete this code
 class Person {
-	constructor(John, 25);
-	console.log(person.name);
-	console.log(person.age);
+	constructor(John, 25){
+	this.name=name;
+	this.age=age;	
+}
 }
 
 class Student extends Person {
@@ -16,6 +17,16 @@ class Teacher extends Person {
 		console.log(`${this.John} is teaching.`);
 	}
 }
+
+const person = new Person("Uday", 25);
+console.log(person.name);
+console.log(person.age);
+
+const student = new Student("Manideep", 25);
+student.study();
+
+const teacher = new Teacher("John", 30);
+teacher.teach();
 
 // Do not change the code below this line
 window.Person = Person;
