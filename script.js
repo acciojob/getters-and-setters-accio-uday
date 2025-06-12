@@ -18,11 +18,11 @@ class Teacher extends Person {
 	}
 }
 
-const person = new Person("Uday", 25);
+const person = new Person("John", 25);
 console.log(person.name);
 console.log(person.age);
 
-const student = new Student("Manideep", 25);
+const student = new Student("John", 25);
 student.study();
 
 const teacher = new Teacher("John", 30);
